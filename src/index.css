@@ -1,13 +1,75 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home{
+  height: calc(100vh - 0.1rem);
+  background-image: url('../public/backgroundB1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.navbar {
+  color: white;
+  position: relative;
+  font-size: 2.4rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+  width: 100vw;
+}
+
+.title {
+  color: #cb5559;
+  font-size: 5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.btn {
+  color: #cb5559;
+  margin-left: 7.1rem;
+  width: 9.7rem;
+  margin-top: 9rem; 
+  font-weight: bold;
+  font-size: 18.5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas{
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.services {
+  background-color: #cb5559;
+  height: calc(100vh - 0.1rem);
+}
+
+
+/* default
+  .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+} */
