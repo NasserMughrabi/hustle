@@ -1,18 +1,19 @@
 import React from 'react'
-// import { FaBars } from 'react-icons/fa';
+import { useState } from 'react';
+
+
 
 const Home = () => {
+    const [display, setDisplay] = useState(false);
+    const handleClick = () => {
+        setDisplay(!display);
+    }
+
   return (
     <section className='home'>
         <article className="navbar">
-            {/* <FaBars /> */}
-            <i className="fas fa-bars"></i>
-            {/* <nav>
-                <button>Home</button>
-                <button>About</button>
-                <button>Contact</button>
-                <button>Book Online</button>
-            </nav> */}
+            <i className="fas fa-bars" onClick={handleClick}></i>
+            
         </article>
         <article className="center">
             <div className="title">Hustle Mobile</div>
