@@ -4,12 +4,14 @@ body {
   box-sizing: border-box;
 }
 
+/* Home Component -------------------------------------------------------------------------------  */
 .home{
   height: calc(100vh - 0.1rem);
   background-image: url('../public/backgroundB1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .navbar {
@@ -21,6 +23,31 @@ body {
   display: flex;
   justify-content: right;
   width: 100vw;
+}
+
+.drop-ul {
+  background-color: #383d39;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100vw;
+  position: absolute;
+  transition: 0.3s ease-out;
+  list-style-type: none;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+}
+
+.drop-ul li {
+  padding: 10px;
+  padding-right: 40px;
+}
+
+.drop-ul li:hover {
+  color: #cb5559;
 }
 
 .title {
@@ -46,45 +73,14 @@ body {
 }
 
 .fas{
+  color: white;
   padding-top: 0.5rem;
   padding-left: 1rem;
 }
 
 .service {
-  /* background-color: #cb5559; */
   height: calc(100vh - 0.1rem);
   padding: 1rem;
-}
-
-.footer {
-  background-color: #cb5559;
-  height: calc(100vh - 27rem);
-  padding: 1rem;
-}
-
-.icons {
-    text-align: center;
-}
-
-article a {
-  color: white;  
-  margin: 1rem;
-  transition: transform 1s;
-}
-
-article a svg {
-  height: 3rem;
-  width: 3rem;
-  cursor: pointer;
-  transition: color 1s;
-}
-
-.copyright {
-  font-size: 1rem;
-  font-family: sans-serif;
-  padding: 3rem;
-  text-align: center;
-  font-weight: bold;
 }
 
 .service-item{
@@ -138,9 +134,44 @@ article a svg {
 }
 
 
+.footer {
+  background-color: #cb5559;
+  height: calc(100vh - 27rem);
+  padding: 1rem;
+}
+
+.icons {
+  text-align: center;
+}
+
+article a {
+  color: white;
+  margin: 1rem;
+  transition: transform 1s;
+}
+
+article a svg {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  transition: color 1s;
+}
+
+.copyright {
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
 
 
-/* book page */
+
+
+
+
+/* Book Component ------------------------------------------------------------*/
+
 
 .book h1{
   text-align: center;
@@ -148,9 +179,6 @@ article a svg {
 
 .form {
   padding: 1rem;
-}
-
-.name{
 }
 
 .name label {
@@ -198,5 +226,13 @@ select {
     box-sizing: border-box;
     border-radius: 2px;
 }
+
+
+
+
+
+
+
+
 
 

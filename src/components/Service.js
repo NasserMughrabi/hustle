@@ -1,7 +1,8 @@
 import React from 'react'
 
-const Service = ({setShowComponent}) => {
+const Service = () => {
   return (
+    <>
     <section className="service">
         <article id="detailing-service" className="service-item">
             <h1>DETAILING</h1>
@@ -16,6 +17,8 @@ const Service = ({setShowComponent}) => {
           <button className='service-btn'>DETAILS</button>
         </article>
     </section>
+    </>
+    
   )
 }
 

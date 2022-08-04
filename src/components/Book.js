@@ -1,7 +1,8 @@
 import React from 'react'
 
-const Book = ({setShowComponent}) => {
+const Book = () => {
   return (
+    <>
     <section className="book">
         <h1>Contact For Appointment</h1>
         <article className="form">
@@ -54,6 +55,7 @@ const Book = ({setShowComponent}) => {
             <button className='form-btn'>Submit</button>
         </article>
     </section>
+    </>
   )
 }
 

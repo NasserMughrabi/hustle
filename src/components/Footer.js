@@ -12,7 +12,7 @@ const Footer = () => {
           <a className='social' href="https://www.instagram.com/nasser_mughrabi/" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
         </article>
         <article className="copyright">
-          Copyright <i class="fa fa-copyright"></i> 2022 
+          Copyright <i className="fa fa-copyright"></i> 2022 
           <br />
           All Rights Reserved.
         </article>
