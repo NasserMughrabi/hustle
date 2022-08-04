@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Service = () => {
+const Service = ({setShowComponent}) => {
   return (
     <section className="service">
         <article className="service-item">

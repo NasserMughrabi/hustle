@@ -99,7 +99,7 @@ article a svg {
     text-align: center;
 }
 
-.service-btn {
+.service-btn, .form-btn {
   color: white;
   background-color: #cb5559;
   width: 9.7rem;
@@ -119,6 +119,68 @@ article a svg {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+
+/* book page */
+
+.book h1{
+  text-align: center;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.name{
+}
+
+.name label {
+  width: 90vw;
+}
+
+.name div label {
+  margin-left: 0.5rem;
+}
+
+.input {
+  margin-left: 0.5rem;
+  width: 90vw;
+  height: 6.5vh;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  font-family: sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.service-choice {
+  margin: 1rem 0rem;
+
+}
+
+.service-choice select {
+  width: 44.9vw;
+
+}
+
+#secs {
+  margin-top: 1rem;
+}
+
+select {
+  margin-left: 0.5rem;
+    width: 90vw;
+    height: 6.5vh;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    font-family: sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 2px;
 }
 
 
