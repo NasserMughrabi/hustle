@@ -3,17 +3,17 @@ import React from 'react'
 const Service = ({setShowComponent}) => {
   return (
     <section className="service">
-        <article className="service-item">
+        <article id="detailing-service" className="service-item">
             <h1>DETAILING</h1>
-            <button className='service-btn'>PRICING</button>
+            <button className='service-btn'>DETAILS</button>
         </article>
-        <article className="service-item">
+        <article id="polish-service" className="service-item">
           <h1>POLISH / PAINT CORRECTION</h1>
-          <button className='service-btn'>PRICING</button>
+          <button className='service-btn'>DETAILS</button>
         </article>
-        <article className="service-item">
+        <article id="ceramic-service" className="service-item">
           <h1>CERAMIC COATING</h1>
-          <button className='service-btn'>PRICING</button>
+          <button className='service-btn'>DETAILS</button>
         </article>
     </section>
   )
