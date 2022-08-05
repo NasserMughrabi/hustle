@@ -22,7 +22,6 @@ body {
   font-weight: bold;
   display: flex;
   justify-content: right;
-  width: 100vw;
 }
 
 .drop-ul {
@@ -76,6 +75,16 @@ body {
   color: white;
   padding-top: 0.5rem;
   padding-left: 1rem;
+}
+
+.navbar .fas {
+  visibility: visible;
+}
+.navbar .nav-items {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  position: fixed;
 }
 
 .service {
@@ -225,6 +234,110 @@ select {
     font-size: 16px;
     box-sizing: border-box;
     border-radius: 2px;
+}
+
+
+
+/* Responsive */
+
+@media (min-width: 800px) {
+  .navbar {
+    background-color: #383d39;
+    height: 4rem;
+    border-bottom: solid 3px #cb5559;
+    position: fixed;
+    width: 100vw;
+  }
+  .navbar .fas {
+    visibility: hidden;
+    width: 0vw;
+    height: 0vh;
+  }
+  .navbar .nav-items {
+    visibility: visible;
+    width: auto;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    position: relative;
+  }
+
+  .nav-items:hover {
+    color: #cb5559;
+  }
+
+  .home {
+    background-image: url('../public/backgroundB4.jpg');
+  }
+  .btn {
+    width: 11rem;
+    height: 3.4rem;
+    margin: 0;
+    margin-top: 5rem;
+  }
+  .center {
+    text-align: center;
+  }
+
+  .title{
+    visibility: hidden;
+  }
+
+  .btn::before{
+    content: "Hustle Auto Detail";
+    width: 98vw;
+    height: 20vh;
+    /* background: blue; */
+    position: absolute;
+    top: 10%;
+    left: 2.5%;
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: red;
+    color: #cb5559;
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+  }
+
+  .service, 
+  .contact, 
+  .book{
+    padding-top: 5rem;
+  }
+
+}
+
+
+@media (min-width: 900px) {
+  
+  .center {
+    width: center;
+  }
+  .btn::before {
+      content: "Hustle Auto Detail";
+      width: 95vw;
+      height: 20vh;
+      /* background: blue; */
+      position: absolute;
+      top: 10%;
+      left: 2.5%;
+      font-size: 5rem;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: red;
+      color: #cb5559;
+      font-size: 4.5rem;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.3rem;
+    }
+
 }
 
 

@@ -34,6 +34,10 @@ const NavBar = ({setShowComponent, color}) => {
     <>
     <article className="navbar">
             <i className="fas fa-bars" style={{color: color}} onClick={handleMenuClick}></i>
+            <i className='nav-items' onClick={handleHomeClick}>Home</i>
+            <i className='nav-items' onClick={handleServiceClick}>Services</i>
+            <i className='nav-items' onClick={handleContactClick}>Contact</i>
+            <i className='nav-items' onClick={handleBookClick}>Book</i>
     </article>
     <ul className='drop-ul' style={{height: display ? '225px' : '0px'}}>
         <li style={{color: selectedComponent==='Home' ? '#cb5559' : 'white'}} onClick={handleHomeClick}>
