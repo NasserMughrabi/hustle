@@ -1,3 +1,8 @@
+:root {
+  --mine-color: #cb5559;
+  --bassam-color: #326fa8;
+}
+
 body {
   margin: 0%;
   padding: 0%;
@@ -46,11 +51,11 @@ body {
 }
 
 .drop-ul li:hover {
-  color: #cb5559;
+  color: var(--bassam-color);
 }
 
 .title {
-  color: #cb5559;
+  color: var(--bassam-color);
   font-size: 5rem;
   font-family: sans-serif;
   font-weight: bold;
@@ -60,7 +65,7 @@ body {
 
 .btn {
   color: white;
-  background-color: #cb5559;
+  background-color: var(--bassam-color);
   margin-left: 7.1rem;
   width: 9.7rem;
   margin-top: 9rem; 
@@ -103,7 +108,7 @@ body {
 
 .service-btn, .form-btn {
   color: white;
-  background-color: #cb5559;
+  background-color: var(--bassam-color);
   width: 9.7rem;
   font-weight: bold;
   font-size: 18.5px;
@@ -144,7 +149,7 @@ body {
 
 
 .footer {
-  background-color: #cb5559;
+  background-color: var(--bassam-color);
   height: calc(100vh - 27rem);
   padding: 1rem;
 }
@@ -244,7 +249,7 @@ select {
   .navbar {
     background-color: #383d39;
     height: 4rem;
-    border-bottom: solid 3px #cb5559;
+    border-bottom: solid 3px var(--bassam-color);
     position: fixed;
     width: 100vw;
   }
@@ -264,7 +269,7 @@ select {
   }
 
   .nav-items:hover {
-    color: #cb5559;
+    color: var(--bassam-color);
   }
 
   .home {
@@ -295,8 +300,7 @@ select {
     font-size: 5rem;
     font-family: sans-serif;
     font-weight: bold;
-    color: red;
-    color: #cb5559;
+    color: var(--bassam-color);
     font-size: 5rem;
     font-family: sans-serif;
     font-weight: bold;
@@ -322,15 +326,13 @@ select {
       content: "Hustle Auto Detail";
       width: 95vw;
       height: 20vh;
-      /* background: blue; */
       position: absolute;
       top: 10%;
       left: 2.5%;
       font-size: 5rem;
       font-family: sans-serif;
       font-weight: bold;
-      color: red;
-      color: #cb5559;
+      color: var(--bassam-color);
       font-size: 4.5rem;
       font-family: sans-serif;
       font-weight: bold;
