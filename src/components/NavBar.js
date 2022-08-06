@@ -40,16 +40,16 @@ const NavBar = ({setShowComponent, color}) => {
             <i className='nav-items' onClick={handleBookClick}>Book</i>
     </article>
     <ul className='drop-ul' style={{height: display ? '225px' : '0px'}}>
-        <li style={{color: selectedComponent==='Home' ? '#cb5559' : 'white'}} onClick={handleHomeClick}>
+        <li style={{color: selectedComponent==='Home' ? '#326fa8' : 'white'}} onClick={handleHomeClick}>
             Home
         </li>
-        <li style={{color: selectedComponent==='Service' ? '#cb5559' : 'white'}} onClick={handleServiceClick}>
+        <li style={{color: selectedComponent==='Service' ? '#326fa8' : 'white'}} onClick={handleServiceClick}>
             Services
         </li>
-        <li style={{color: selectedComponent==='Contact' ? '#cb5559' : 'white'}} onClick={handleContactClick}>
+        <li style={{color: selectedComponent==='Contact' ? '#326fa8' : 'white'}} onClick={handleContactClick}>
             Contact
         </li>
-        <li style={{color: selectedComponent==='Book' ? '#cb5559' : 'white'}} onClick={handleBookClick}>
+        <li style={{color: selectedComponent==='Book' ? '#326fa8' : 'white'}} onClick={handleBookClick}>
             Book
         </li>
     </ul>
