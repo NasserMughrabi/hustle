@@ -70,9 +70,9 @@ const Book = ({setShowComponent}) => {
                 <div>
                     <select name="service" className='input'>
                         <option value="">Choose Service</option>
-                        <option value="S1">Detailing</option>
-                        <option value="S1">Polish/Pain Correction</option>
-                        <option value="S1">Ceramic Coating</option>
+                        <option value="Detailing">Detailing</option>
+                        <option value="Polish/Pain Correction">Polish/Pain Correction</option>
+                        <option value="Ceramic Coating">Ceramic Coating</option>
                     </select>
                 </div>
             </div>

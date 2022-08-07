@@ -3,11 +3,9 @@ import Service from './Service';
 import NavBar from './NavBar';
 
 const Home = ({setShowComponent}) => {
-
-    
-    const handleBookClick = () => {
-        setShowComponent('Book');
-    }
+  const handleBookClick = () => {
+      setShowComponent('Book');
+  }
 
   return (
     <>
