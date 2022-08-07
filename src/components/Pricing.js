@@ -4,7 +4,7 @@ const Pricing = () => {
   return (
     <>
     <section className="pricing">
-      
+      Prices and Service Details TBD
     </section>
     </>
   )

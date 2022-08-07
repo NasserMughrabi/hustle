@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
     <section className="contact">
-        Contact
+      Contact TBD
     </section>
     </>
     

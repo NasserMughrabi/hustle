@@ -90,6 +90,7 @@ body {
   width: 0px;
   height: 0px;
   position: fixed;
+  cursor: pointer;
 }
 
 .service {
@@ -104,6 +105,7 @@ body {
     font-family: sans-serif;
     font-size: 40px;
     text-align: center;
+    cursor: default;
 }
 
 .service-btn, .form-btn {
@@ -115,6 +117,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
   /* default */
   display: inline-block;
@@ -177,11 +180,12 @@ article a svg {
   padding: 3rem;
   text-align: center;
   font-weight: bold;
+  cursor: default;
 }
 
-
-
-
+.icons a:hover {
+  color: #212529;
+}
 
 
 /* Book Component ------------------------------------------------------------*/
@@ -310,10 +314,23 @@ select {
 
   .service, 
   .contact, 
-  .book{
+  .book,
+  .pricing,
+  .confirm {
     padding-top: 5rem;
   }
 
+}
+
+/* Confirmation Page */
+.message {
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.message div{
+  margin-bottom: 1rem;
 }
 
 
@@ -340,6 +357,10 @@ select {
       letter-spacing: 0.3rem;
     }
 
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 

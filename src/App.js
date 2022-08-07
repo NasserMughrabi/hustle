@@ -4,6 +4,8 @@ import Service from "./components/Service";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import Pricing from "./components/Pricing";
+import Confirmation from "./components/Confirmation";
 import {useState} from 'react'
 
 function App() {
@@ -23,11 +25,19 @@ function App() {
       home = false;
       color = 'black';
     } else if (showComponent.toLowerCase() === 'contact') {
-      component = <Contact setShowComponent={setShowComponent}/>;
+      component = <Contact />;
       home = false;
       color = 'black';
     } else if (showComponent.toLowerCase() === 'book') {
       component = <Book setShowComponent={setShowComponent}/>;
+      home = false;
+      color = 'black';
+    } else if (showComponent.toLowerCase() === 'pricing') {
+      component = <Pricing />;
+      home = false;
+      color = 'black';
+    } else if (showComponent.toLowerCase() === 'confirmation') {
+      component = <Confirmation />;
       home = false;
       color = 'black';
     } 
